@@ -129,7 +129,7 @@ function continueAsGuestBtn_Click(){
         setTimeout(() => {
             fadeOpacity(container, 1, 0);
             setTimeout(() => {
-                window.location = "/home";
+                window.location = "/portfolio/home";
             }, 700);
         }, 700);
     }, 500);
