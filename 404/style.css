@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(57, 57, 57);
+    font-family: "JetBrains Mono";
+    color: white;
+}
+
+footer{
+    font-family: "JetBrains Mono";
+}
+
+@font-face {
+    font-family: "JetBrains Mono";
+    src: url("/fonts/JetBrainsMono-Regular.ttf");
+}
+
+#GoBackToHomePageButton{
+	transition: background-color 0.3s ease-in-out;
+    -webkit-transition: background-color 0.3s ease-in-out;
+	padding: 10px 30px;
+    font-family: "JetBrains Mono";
+	background-color: #111111;
+	border-style: none;
+	outline: none;
+	border-radius: 75px;
+	font-size: 15px;
+	color: white;
+	margin-right: 10px;
+    margin-top: 15px;
+}
+
+#GoBackToHomePageButton:hover{
+    background-color: #0c0c0c;
+}

@@ -1,0 +1,71 @@
+body{
+    background-color: black;
+    font-family: "JetBrains Mono";
+}
+
+footer{
+    font-family: "JetBrains Mono";
+}
+
+@font-face {
+    font-family: "JetBrains Mono";
+    src: url("/fonts/JetBrainsMono-Regular.ttf");
+}
+
+#intro{
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+}
+
+.featuredList{
+    color: white;
+    margin-top: 5%;
+}
+
+.featuredObj{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 100%;
+    max-width: 100%;
+    flex-direction: row;
+}
+
+.featuredObj img{
+    min-width: 200px;
+}
+
+.column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 100%;
+    max-width: 100%;
+    flex-direction: column;
+}
+
+.featuredObjTitle{
+    font-size: 37px;
+}
+
+.checkItOutButton{
+	transition: padding 0.3s ease-in-out;
+    -webkit-transition: padding 0.3s ease-in-out;
+	padding: 10px 30px;
+	background-color: #181818;
+	border-style: none;
+	border-radius: 75px;
+	height: fit-content;
+    width: fit-content;
+	font-size: 15px;
+	color: rgb(231, 231, 231);
+	margin-right: auto;
+	margin-left: auto;
+    text-decoration: none;
+    display: block;
+}
+
+.checkItOutButton:hover{
+	padding: 10px 40px;
+}

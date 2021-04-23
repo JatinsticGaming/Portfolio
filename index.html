@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="essentials.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="welcomeAnimations.css">
+</head>
+<body>
+    <center>
+        <div class="container2" id="container" style="width: 500px;">
+            <div id="loginDiv" style="opacity: 0;">
+                <h2>Login</h2>
+                <h4 style="margin-top: 40px; margin-right: 75%;">Username</h4>
+                <input type="text" class="input" id="usernameInput" placeholder="Please enter your username here...">
+                <h4 style="margin-top: 20px; margin-right: 75%;">Password</h4>
+                <input type="text" class="input" id="passwordInput" placeholder="Please enter your password here...">
+                <br>
+                <button type="button" id="loginBtn" style="margin-top: 30px;">Login</button>
+                <div class="line" style="width: 430px; margin-top: 14px;"></div>
+                <button type="button" id="registerBtn" style="margin-top: 7px;">Register</button>
+                <button type="button" id="continueAsGuestBtn" style="margin-top: 7px;" onclick="continueAsGuestBtn_Click()">Continue as guest</button>
+            </div>
+            <button id="welcomeBtn" type="button" onclick="welcomeBtn_Click()">Welcome</button>
+        </div>
+    </center>
+    <script src="welcome.js"></script>
+</body>
+</html>

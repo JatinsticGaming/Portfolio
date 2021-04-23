@@ -1,0 +1,47 @@
+@keyframes greet{
+    0% {color: #141414;}
+    3% {color: #141414;}
+    5% {color: white;}
+    24% {color: white;}
+    26% {color:#141414;}
+    30% {color: #141414;}
+    32% {color: white;}
+    49% {color: white;}
+    51% {color:#141414;}
+    55% {color: #141414;}
+    57% {color: white;}
+}
+
+#welcomeBtn{
+    /*animations*/
+    animation-name: greet;
+    animation-duration: 10s;
+    
+    /*colors*/
+    background-color: #141414; 
+    color:white;
+
+    /*border*/
+    border: 0; 
+    border-radius: 50px;
+
+    /*padding*/
+    padding-top: 6px; 
+    padding-bottom: 6px; 
+    padding-left: 20px; 
+    padding-right: 20px;
+
+    outline: none;
+}
+
+#container.expandHeight{
+    transition: height 0.5s ease-in-out;
+    -webkit-transition: height 0.5s ease-in-out;
+    height: 390px;
+}
+
+#container.collapseHeight{
+    transition: height 0.5s ease-in-out;
+    -webkit-transition: height 0.5s ease-in-out;
+    height: 0px;
+}

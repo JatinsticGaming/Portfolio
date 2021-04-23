@@ -1,0 +1,56 @@
+body{
+    background-color: black;
+}
+
+#loginBtn{
+    transition: padding 0.3s ease-in-out;
+    -webkit-transition: padding 0.3s ease-in-out;
+    border-radius: 50px;
+    border-style: solid;
+    padding: 5px 20px;
+    background-color: #1A1A1A;
+    font-weight: bold;
+    color: white;
+    border-color: transparent;
+    outline: none;
+}
+
+#loginBtn:hover{
+    padding: 5px 25px;
+}
+
+#registerBtn{
+    transition: padding 0.3s ease-in-out;
+    -webkit-transition: padding 0.3s ease-in-out;
+    border-radius: 50px;
+    border-style: solid;
+    padding: 5px 20px;
+    background-color: #1A1A1A;
+    font-weight: bold;
+    color: white;
+    border-color: transparent;
+    margin-left: 40px;
+    outline: none;
+}
+
+#registerBtn:hover{
+    padding: 5px 25px;
+}
+
+#continueAsGuestBtn{
+    transition: padding 0.3s ease-in-out;
+    -webkit-transition: padding 0.3s ease-in-out;
+    border-radius: 50px;
+    border-style: solid;
+    padding: 5px 20px;
+    background-color: #1A1A1A;
+    font-weight: bold;
+    color: white;
+    border-color: transparent;
+    margin-left: 10px;
+    outline: none;
+}
+
+#continueAsGuestBtn:hover{
+    padding: 5px 25px;
+}

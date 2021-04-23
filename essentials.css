@@ -1,0 +1,265 @@
+::-webkit-scrollbar{
+	background-color: #1C1C1C;
+	width: 11px;
+}
+
+::-webkit-scrollbar-thumb{
+	background-color: #0C0C0C;
+	border-radius: 100px;
+	width: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+	background-color: #070707;
+}
+
+body, html{
+	height: 100%;
+}
+body{
+	text-align: center;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+.line{
+	height: 3px;
+	background: linear-gradient(#252525, #252525, transparent);
+	border-radius: 50%;
+}
+
+.line.white{
+	height: 3px;
+	background: linear-gradient(white, white, transparent);
+	border-radius: 50%;
+}
+
+.line.navbar-side-t{
+	height: 3px;
+	background: linear-gradient(white, white, transparent);
+	border-radius: 50%;
+	margin-left: 20%;
+	margin-top: -10px;
+	text-align: center;
+}
+
+.container2
+{
+	background: white;
+	padding: 10px;
+	float: none;
+	border-radius: 15px;
+}
+
+#container{
+	height: 52px;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.input{
+	border-color: #343434;
+	border-style: solid;
+	border-width: 2px;
+	width: 450px;
+	height: 40px;
+	border-radius: 10px;
+	padding-left: 10px;
+	font-size: 17px;
+	outline: none;
+}
+
+.navbar{
+	transition: height 0.5s ease-in-out;
+    -webkit-transition: height 0.5s ease-in-out;
+	background-color: #1C1C1C;
+	height: 60px;
+	border: none;
+	border-radius: 0;
+	margin-top: -60px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding-left: 20px;
+	width: 100%;
+}
+
+.navbar.shown{
+	transition: margin-top 0.5s ease-in-out;
+    -webkit-transition: margin-top 0.5s ease-in-out;
+    margin-top: 0px;
+}
+
+.navbar.responsive{
+	transition: height 0.5s ease-in-out;
+    -webkit-transition: height 0.5s ease-in-out;
+	height: 60px;
+	background-color: #1C1C1C;
+}
+
+.navbar.responsive:hover{
+    height: 70px;
+	background-color: #1C1C1C;
+}
+
+.navbar-title{
+	transition: margin-top 0.5s ease-in-out;
+    -webkit-transition: margin-top 0.5s ease-in-out;
+	color: white;
+	font-size: 25px;
+	display: block;
+	width: 50px;
+	height: 50px;
+	text-align: left;
+	padding-left: 10px;
+	padding-top: 15px;
+	margin-top: 0px;
+	border: none;
+	float: left;
+	background-image: url("Monochrome PFP.jpg");
+	border: none;
+	background-size: contain;
+	margin-top: 4px;
+}
+
+.navbar-title.margin{
+	margin-top: 10px;
+}
+
+ul{
+	padding: none;
+	list-style-type: none;
+	overflow: hidden;
+	height: 100%;
+	margin-right: 40%;
+}
+
+li{
+	height: 100%;
+	float: right;
+}
+
+li a{
+	transition: font-size 0.3s ease-in-out;
+    -webkit-transition: font-size 0.3s ease-in-out;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 16px;
+	text-decoration: none;
+	font-size: 16px;
+	outline: none;
+	height: 100%;
+	width: 100%;
+}
+
+li a:hover{
+	font-size: 18px;
+}
+
+li:hover{
+	background-color: #1A1A1A;
+}
+
+header{
+	display: flex;
+	align-items: center;
+}
+
+.accountInfo{
+	float: right;
+	margin-top: -60px;
+	height: 100%;
+	padding: none;
+	overflow: hidden;
+}
+
+.loginBtn{
+	transition: padding 0.3s ease-in-out;
+    -webkit-transition: padding 0.3s ease-in-out;
+	padding: 0 30px;
+	background-color: #111111;
+	border-style: none;
+	outline: none;
+	border-radius: 75px;
+	height: 35px;
+	font-weight: bold;
+	font-size: 15px;
+	color: white;
+	margin-right: 10px;
+}
+
+.registerBtn{
+	transition: padding 0.3s ease-in-out;
+    -webkit-transition: padding 0.3s ease-in-out;
+	padding: 0 30px;
+	background-color: #181818;
+	border-style: none;
+	outline: none;
+	border-radius: 75px;
+	height: 35px;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgb(231, 231, 231);
+	margin-right: 7px;
+}
+
+.loginBtn:hover{
+	padding: 0 45px;
+}
+
+.registerBtn:hover{
+	padding: 0 45px;
+}
+
+.footer{
+	background-color: #1C1C1C;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.copyrightText{
+	color: white;
+}
+
+.footerDivStart{
+	background-image: linear-gradient(180deg, transparent, #1C1C1C);
+	height: 70px;
+	width: 100%;
+}
+
+#footer-logo{
+	background-image: url("/Monochrome PFP.jpg");
+	height: 50px;
+	width: 50px;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+#GoBackToTopButton{
+	transition: background-color 0.3s ease-in-out;
+    -webkit-transition: background-color 0.3s ease-in-out;
+	padding: 10px 30px;
+    font-family: "JetBrains Mono";
+	background-color: #111111;
+	border-style: none;
+	outline: none;
+	border-radius: 75px;
+	font-size: 15px;
+	color: white;
+	margin-right: 10px;
+    margin-top: 15px;
+}
+
+#GoBackToTopButton:hover{
+    background-color: #0c0c0c;
+}
